@@ -17,7 +17,7 @@ for sent, received in result:
     if ttl == 64:
         os = "Linux (Kernel 2.4 and 2.6) or Google Linux or FreeBSD"
     elif ttl == 128:
-        os = "Windows Vista and 7 (Server 2008) or Windows XP"
+        os = "Microsoft Windows"
     elif ttl == 255:
         os = "iOS 12.4 (Cisco Routers)"
     else:
