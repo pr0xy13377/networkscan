@@ -13,7 +13,6 @@ for sent, received in result:
     icmp = IP(dst=ip)/ICMP()
     response = sr1(icmp,verbose=0)
     ttl = response[0].ttl
-    print(ttl)
     if ttl == 64:
         os = "Linux (Kernel 2.4 and 2.6) or Google Linux or FreeBSD"
     elif ttl == 128:
